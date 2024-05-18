@@ -49,9 +49,12 @@ def ask_question():
         response = retrieval_chain.invoke({"input": user_input})
         
         # Return the response as JSON
-        return jsonify({"answer": response["answer"]})
+        # return jsonify({"answer": response["answer"]})
+        print (user_input)
+        print (response["answer"])
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        # return jsonify({"error": str(e)}), 500
+        print ("Error: No response found.")
 
 # # Run the Flask application
 # if __name__ == '__main__':
