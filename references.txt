@@ -1,0 +1,4 @@
+https://discovergen.ai/article/building-flask-apis-for-retrieval-augmented-genera/
+
+https://kevincoder.co.za/how-to-build-a-pdf-chatbot-with-langchain-and-faiss
+
